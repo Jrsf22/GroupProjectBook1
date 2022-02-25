@@ -42,6 +42,7 @@ public class BookServlet1 extends HttpServlet {
 		private static final String SELECT_ALL_BOOKS_ORDER_BY_bookLikes= "SELECT bookName, bookDesc, bookAuthor, bookLikes from booksdetails ORDER BY bookLikes DESC where bookName = ?;";
 		// Select all books by that contains search input(used for search)
 		private static final String SELECT_BOOKS_BY_NAME = "SELECT * FROM booksdetails where bookName like %?%;";
+		private static final String SELECT_BOOKS_BY_WorD = "SELECT * FROM booksdetails where bookName like %?%;";
 	
 	
 	protected Connection getConnection() {
