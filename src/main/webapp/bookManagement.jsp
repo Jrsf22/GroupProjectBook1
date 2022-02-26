@@ -13,7 +13,7 @@
 <title>Book Management</title>
 </head>
 <body>
-    <div class="row">
+    <div id="content" class="row">
         <div class="container">
             <h3 class="text-center">List of Books</h3>
             <hr>
